@@ -52,6 +52,7 @@ public class redisController {
                 return  false;
             }else {
 
+
                 SessionCallback<Object> callback = new SessionCallback<Object>() {
                     @Override
                     public Object execute(RedisOperations operations) throws DataAccessException {
