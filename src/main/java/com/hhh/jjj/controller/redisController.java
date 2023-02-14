@@ -39,6 +39,7 @@ public class redisController {
         return ""+opinionproductid;
     }
 
+
     private Boolean opinionproductid(String productid,String userid) {
         if(productid!=null||productid!=""){
 
